@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Companies',
+    'title' => 'Companies - ',
 
     'title_prefix' => '',
 

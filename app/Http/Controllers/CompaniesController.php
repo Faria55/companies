@@ -62,7 +62,6 @@ class CompaniesController extends Controller
         $company = new Company([
             'name' => $request->get('name'),
             'email' => $request->get('email'),
-            'logo' => $request->file('logo')->store('public'),
             'website' => $request->get('website'),
         ]);
 
